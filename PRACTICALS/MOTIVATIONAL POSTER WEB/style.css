@@ -1,0 +1,30 @@
+/* @import url(https://fonts.google.com/specimen/Libre+Basketville); */
+
+*{
+    background-color: black;
+}
+
+#container {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    font-size: 3rem;
+}
+
+p{
+    color: white;
+}
+
+img {
+    border: white 5px solid;
+    width: 100%;
+}
+
