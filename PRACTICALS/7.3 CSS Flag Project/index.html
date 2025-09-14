@@ -6,20 +6,79 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-  .flag {
-    height: 900px;
-    width: 600px;
-    background-color: red;
-  }
+    body {
+      margin: 0;
+      padding: 0;
+    }
 
-  .flag > div {
-    height: 300px;
-    width: 100%;
-    background-color: blue;
-    position: absolute;
-    top: 150px;
-  }
-  </style>
+    .flag {
+      width: 900px;
+      height: 600px;
+      background-color: red;
+      position: relative;
+    }
+
+    .flag > div {
+      width: 100%;
+      height: 300px;
+      background-color: blue;
+      position: absolute;
+      top:150px
+    }
+
+    .flag > div > div {
+      width:200px;
+      height: 200px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+    }
+
+    .flag p {
+      text-align: center;
+      font-size: 5rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    .flag > p {
+      color: white;
+    }
+
+    /* Flag of Nigeria */
+
+    .Nja {
+      width: 250px;
+      height: 400px;
+      background-color: green;
+      position: relative;
+    }
+
+    .Nja > div {
+      width: 250px;
+      height: 400px;
+      background-color: green;
+      position: absolute;
+      left: 30rem;
+      top: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .Nja > p {
+      font-size: 8rem;
+      text-align: center;
+      position: relative;
+      left: 100%;
+    }
+
+    .Nja > h1 {
+      color: white;
+    }
+
+    </style>
 </head>
 
 <!-- 
@@ -41,6 +100,29 @@ https://appbrewery.github.io/flag-of-laos/
       </div>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+
+  <!-- THE FLAG OF NIGERIA -->
+  <div class="Nja">
+    <h4>THE FLAG OF Nigeria</h4>
+    <p>9ja</p>
+    <div>
+      <h4>THE FLAG OF Nigeria</h4>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+  <br>
 </body>
 
 </html>
